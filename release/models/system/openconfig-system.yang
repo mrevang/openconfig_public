@@ -1170,9 +1170,10 @@ module openconfig-system {
       type uint64;
       units bytes;
       description
-        "Available memory includes free memory plus cached/buffered memory that
-        can be reclaimed instantly by the operating system for new
-        applications";
+        "The amount of memory that is available for use.
+        This includes memory that is currently unused, as well as memory
+        used for system caches and buffers that can be reclaimed by the
+        operating system.";
     }
   }
 
