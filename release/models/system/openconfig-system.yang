@@ -1171,9 +1171,10 @@ module openconfig-system {
       units bytes;
       description
         "The amount of memory that is available for use.
-        This includes memory that is currently unused, as well as memory
-        used for system caches and buffers that can be reclaimed by the
-        operating system.";
+
+        In addition to the memory reported by free, this leaf also includes
+        memory used for system caches and buffers that can be
+        reclaimed by the operating system.";
     }
   }
 
